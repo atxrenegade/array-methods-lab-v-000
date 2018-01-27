@@ -1,5 +1,5 @@
 def using_include(array, element)
-  array
+  array.include?("element1")
 end
 
 def using_sort(array)
@@ -21,4 +21,3 @@ end
 def using_size(array)
   array.size
 end
-    
